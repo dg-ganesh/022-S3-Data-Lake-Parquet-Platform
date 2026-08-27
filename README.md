@@ -12,16 +12,16 @@ S3](https://img.shields.io/badge/AWS-S3-orange)
   --------------------------------------------------------------------------------------------------------------------
   Screenshot                                                                       Description
   -------------------------------------------------------------------------------- -----------------------------------
-  [Ingestion Result](screenshots/ingestion-result-output.PNG)                      End-to-end ingestion and curated
+  ![Ingestion Result](screenshots/ingestion-result-output.PNG)                      End-to-end ingestion and curated
                                                                                    pipeline execution result.
 
-  [Parquet File Size](screenshots/paraquet-file-size-confirmation.PNG)             Local Parquet output size
+  ![Parquet File Size](screenshots/paraquet-file-size-confirmation.PNG)             Local Parquet output size
                                                                                    confirmation.
 
-  [Parquet in S3](screenshots/paraquet-file-visible-in-s3.PNG)                     Curated Parquet dataset visible in
+  ![Parquet in S3](screenshots/paraquet-file-visible-in-s3.PNG)                     Curated Parquet dataset visible in
                                                                                    Amazon S3.
 
-  [Parquet                                                                         Top-10 seller analysis executed by
+  ![Parquet                                                                         Top-10 seller analysis executed by
   Analytics](screenshots/generating-top10-sales-using-paraquet-file-reading.PNG)   reading the curated Parquet
                                                                                    dataset.
   --------------------------------------------------------------------------------------------------------------------
