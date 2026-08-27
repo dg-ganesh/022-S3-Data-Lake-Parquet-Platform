@@ -9,12 +9,13 @@
 
 # 3. Screenshots
 
-| Screenshot | Description |
+| **Screenshot** | **Description** |
 | --- | --- |
-| [Ingestion Result](screenshots/ingestion-result-output.PNG) | End-to-end ingestion and curated pipeline execution result. |
-| [Parquet File Size](screenshots/paraquet-file-size-confirmation.PNG) | Local Parquet output size confirmation. |
-| [Parquet in S3](screenshots/paraquet-file-visible-in-s3.PNG) | Curated Parquet dataset visible in Amazon S3. |
-| [Parquet Analytics](screenshots/generating-top10-sales-using-paraquet-file-reading.PNG) | Top-10 seller analysis performed by reading the curated Parquet dataset. |
+| ![Ingestion Result](screenshots/ingestion-result-output.PNG) | End-to-end ingestion and curated pipeline execution result. |
+| ![Parquet File Size](screenshots/paraquet-file-size-confirmation.PNG) | Local Parquet output size confirmation. |
+| ![Parquet in S3](screenshots/paraquet-file-visible-in-s3.PNG) | Curated Parquet dataset visible in Amazon S3. |
+| ![Parquet Analytics](screenshots/generating-top10-sales-using-paraquet-file-reading.PNG) | Top-10 seller analysis performed by reading the curated Parquet dataset. |
+
 
 # 4. Project Title
 
