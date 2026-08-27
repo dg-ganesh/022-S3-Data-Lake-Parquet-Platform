@@ -1,0 +1,133 @@
+# ============================================================
+# Project 022 - S3 Data Lake + Parquet Platform
+# ============================================================
+
+# ------------------------------------------------------------
+# Python
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ------------------------------------------------------------
+# Testing / Coverage
+# ------------------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# ------------------------------------------------------------
+# IDE / Editors
+# ------------------------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ------------------------------------------------------------
+# Project Runtime Data
+# ------------------------------------------------------------
+
+# Raw/input data
+data/input/*
+!data/input/.gitkeep
+
+# Local curated/generated datasets
+data/curated/*
+!data/curated/.gitkeep
+
+# Local demo data
+data/demo_split/*
+!data/demo_split/.gitkeep
+
+# Temporary/output data
+data/output/*
+!data/output/.gitkeep
+
+# Temporary processing files
+data/tmp/*
+!data/tmp/.gitkeep
+
+# ------------------------------------------------------------
+# Logs / Execution Reports
+# ------------------------------------------------------------
+logs/*
+!logs/.gitkeep
+
+*.log
+
+# ------------------------------------------------------------
+# AWS / Credentials / Secrets
+# ------------------------------------------------------------
+
+# Never commit local AWS credentials
+.aws/
+.aws/credentials
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Generic secrets
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ------------------------------------------------------------
+# Parquet / Data Files
+# ------------------------------------------------------------
+
+# Prevent accidentally committing generated datasets
+*.parquet
+*.parquet.tmp
+
+# Common data files
+*.csv
+*.csv.gz
+*.jsonl
+
+# Keep project sample/config files if explicitly required
+!data/**/*.example.csv
+!data/**/*.sample.csv
+
+# ------------------------------------------------------------
+# Temporary files
+# ------------------------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ------------------------------------------------------------
+# Local execution artifacts
+# ------------------------------------------------------------
+execution_report.txt
+
+# ------------------------------------------------------------
+# OS / Shell
+# ------------------------------------------------------------
+desktop.ini
